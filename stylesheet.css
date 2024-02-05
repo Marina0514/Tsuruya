@@ -1,0 +1,95 @@
+body{
+  background-color: #FFFFCC;
+}
+
+header{
+  /* background-color: aqua; */
+}
+
+header img{
+  padding-left: 130px;
+}
+
+main{
+  /* background-color: pink; */
+}
+
+main h1{
+  display: block;
+  text-align: center;
+}
+
+main img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+main video{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button{
+  background-color: orange;
+  color: antiquewhite;
+  border-radius: 5%;
+  padding: 10px 20px;
+  border-width: 2px;
+  border-style: none;
+  border-color: orangered;
+  margin-bottom: 15px;
+  width: 100%;
+  cursor: pointer;
+}
+
+
+.secret{
+width: 100%;
+}
+
+.dot{
+
+  background: transparent url(https://www.try110.com/bousai_kawara/img/bg_boxStyle01.png);
+  width: 100%;
+  height: 2000px;
+  border-style: solid;
+  border-width: thick;
+  border-color: rgba(11, 73, 11, 0.5);
+  border-radius: 2%;
+  position: relative;
+}
+
+.dot-pic{
+  display: flex;
+}
+.dot-img1{
+  width: 70%;
+  height: 20%;
+}
+
+.dot-img2{
+  width: 150px;
+  height: 150px;
+}
+
+span{
+  color: #168fbe;
+  font-weight: bold;
+}
+
+.dot.mos-green{
+  position: relative;
+}
+
+.dot.mos-green::before{
+  background-color: rgb(10, 80, rgb(177, 218, 195));
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
